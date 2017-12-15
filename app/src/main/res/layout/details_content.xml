@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayaali.secondtask.activity.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="6"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#000"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:titleTextAppearance="@style/toolBarSize"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignRight="@+id/toolbar"
+                >
+                <View
+                    android:id="@+id/View01"
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="#ffff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/mlogo"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="50dp"
+            >
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/circularImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/a1"
+                app:civ_border_color="#EEEEEE"
+                app:civ_border_width="4dp"
+                app:civ_shadow="true"
+                app:civ_shadow_color="#8BC34A"
+
+                app:civ_shadow_radius="10" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="5"
+                android:clickable="true"
+                app:fabSize="mini"
+                app:backgroundTint="@color/orange"
+                app:srcCompat="@drawable/camera"
+                android:layout_alignBottom="@id/circularImageView"
+                android:layout_alignRight="@id/circularImageView"
+                android:layout_marginBottom="25dp"
+                />
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ايه علي محمد"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="عثمان ابن عفان"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:weightSum="2"
+        android:padding="10dp"
+        android:background="#ffff"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/calendar"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+                <TextView
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Birth Date"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="24sp"
+                    />
+                <TextView
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25 Dec 2016 12:00 pm PST"
+                    android:textSize="18sp"
+                    android:textColor="#979797"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/calendar"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+                <TextView
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age Today"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    />
+                <TextView
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 Year 2 Month 0 Day"
+                    android:textSize="18sp"
+                    android:textColor="#979797"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
