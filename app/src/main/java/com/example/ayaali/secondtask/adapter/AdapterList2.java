@@ -19,14 +19,14 @@ import com.example.ayaali.secondtask.R;
 public class AdapterList2 extends ArrayAdapter<String> {
 
     private final String [] description;
-    private final int [] imageIds;
+
     private final Activity context;
 
-    public AdapterList2(String[] description, int[] imageIds, Activity context1) {
+    public AdapterList2(String[] description, Activity context1) {
         super(context1, R.layout.item_list, description);
 
         this.description = description;
-        this.imageIds = imageIds;
+
         this.context = context1;
     }
 
