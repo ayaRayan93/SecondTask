@@ -25,8 +25,8 @@ import com.example.ayaali.secondtask.adapter.AdapterList2;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener,NavigationView.OnNavigationItemSelectedListener {
 
-    private final String[] listOfText={"1","2","3","4","5","6","7","8"};
-    private final int[] imagesIds={R.drawable.a1,R.drawable.a13,R.drawable.a14,R.drawable.a15,R.drawable.a16,R.drawable.a17,R.drawable.a18,R.drawable.a19};
+    private final String[] listOfText={"1","2","3","4"};//,"5","6","7","8"};
+    private final int[] imagesIds={R.drawable.a1,R.drawable.a13,R.drawable.a14,R.drawable.a15};//,R.drawable.a16,R.drawable.a17,R.drawable.a18,R.drawable.a19};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
