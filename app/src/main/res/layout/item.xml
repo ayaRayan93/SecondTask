@@ -22,7 +22,7 @@ android:orientation="vertical"
         >
         <com.mikhaellopez.circularimageview.CircularImageView
             android:id="@+id/circularImageView"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
             android:src="@drawable/a1"
@@ -31,14 +31,14 @@ android:orientation="vertical"
             app:civ_shadow="true"
             app:civ_shadow_color="#8BC34A"
             android:background="@color/gray"
-            android:layout_weight=".3"
+            android:layout_weight="1"
             app:civ_shadow_radius="10" />
 
     <TextView
         android:id="@+id/text2"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:paddingTop="20dp"
         android:text="ايه علي محمد"
         android:textAlignment="center"
