@@ -12,7 +12,7 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-android:orientation="vertical"
+    android:orientation="vertical"
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,18 +34,18 @@ android:orientation="vertical"
             android:layout_weight="1"
             app:civ_shadow_radius="10" />
 
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="0dp"
-        android:layout_height="80dp"
-        android:layout_weight="2"
-        android:paddingTop="20dp"
-        android:text="ايه علي محمد"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        android:textColor="@color/colorPrimary"
-        android:background="@color/gray"
-        />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="2"
+                android:paddingTop="20dp"
+                android:text="ايه علي محمد"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/gray"
+                />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

@@ -12,7 +12,7 @@
     <android.support.design.widget.AppBarLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:theme="@style/AppTheme.AppBarOverlay">
         <RelativeLayout
             android:layout_width="match_parent"
@@ -51,7 +51,7 @@
     <LinearLayout
         android:layout_weight="5"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:orientation="vertical"
         android:weightSum="9"
         >
@@ -105,7 +105,7 @@
               android:orientation="vertical"
               >
 
-              <LinearLayout
+                <LinearLayout
                   android:layout_weight="1"
                   android:layout_width="wrap_content"
                   android:layout_height="0dp"
@@ -115,7 +115,7 @@
                   >
               <com.mikhaellopez.circularimageview.CircularImageView
                   android:id="@+id/circularImageView"
-                  android:layout_width="50dp"
+                  android:layout_width="0dp"
                   android:layout_height="50dp"
                   android:layout_gravity="center"
                   android:src="@drawable/location"
@@ -128,7 +128,7 @@
                   <TextView
                       android:layout_weight="2"
                       android:layout_gravity="center"
-                      android:layout_width="wrap_content"
+                      android:layout_width="0dp"
                       android:layout_height="wrap_content"
                       android:text="القاهرة ,مدينة نصر"
                       android:textSize="20sp"
@@ -136,7 +136,7 @@
                       android:paddingLeft="15dp"
                       />
               </LinearLayout>
-              <LinearLayout
+                <LinearLayout
                   android:layout_weight="1"
                   android:layout_width="wrap_content"
                   android:layout_height="0dp"
@@ -146,7 +146,7 @@
                   >
                   <com.mikhaellopez.circularimageview.CircularImageView
                       android:id="@+id/circularImageView1"
-                      android:layout_width="50dp"
+                      android:layout_width="0dp"
                       android:layout_height="50dp"
                       android:layout_gravity="center"
                       android:src="@drawable/phone1"
@@ -159,7 +159,7 @@
                   <TextView
                       android:layout_weight="2"
                       android:layout_gravity="center"
-                      android:layout_width="wrap_content"
+                      android:layout_width="0dp"
                       android:layout_height="wrap_content"
                       android:text="010123456789"
                       android:textSize="20sp"
@@ -167,7 +167,7 @@
                       android:paddingLeft="15dp"
                       />
               </LinearLayout>
-              <LinearLayout
+                <LinearLayout
                   android:layout_weight="1"
                   android:layout_width="wrap_content"
                   android:layout_height="0dp"
@@ -177,7 +177,7 @@
                   >
                   <com.mikhaellopez.circularimageview.CircularImageView
                       android:id="@+id/circularImageView2"
-                      android:layout_width="50dp"
+                      android:layout_width="0dp"
                       android:layout_height="50dp"
                       android:layout_gravity="center"
                       android:src="@drawable/mail"
@@ -190,7 +190,7 @@
                   <TextView
                       android:layout_weight="2"
                       android:layout_gravity="center"
-                      android:layout_width="wrap_content"
+                      android:layout_width="0dp"
                       android:layout_height="wrap_content"
                       android:text="null"
                       android:textSize="20sp"

@@ -12,7 +12,7 @@
     <android.support.design.widget.AppBarLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:theme="@style/AppTheme.AppBarOverlay">
         <RelativeLayout
             android:layout_width="match_parent"
@@ -51,13 +51,13 @@
     <LinearLayout
         android:layout_weight="5"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        android:weightSum="5"
+        android:weightSum="8"
         >
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
             >
@@ -78,9 +78,9 @@
         </LinearLayout>
 
       <WebView
-          android:layout_weight="4"
+          android:layout_weight="7"
           android:layout_width="match_parent"
-          android:layout_height="match_parent"
+          android:layout_height="0dp"
           android:id="@+id/webPage"
           >
 

@@ -12,7 +12,7 @@
     <android.support.design.widget.AppBarLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:theme="@style/AppTheme.AppBarOverlay">
         <RelativeLayout
             android:layout_width="match_parent"
@@ -49,14 +49,15 @@
     </android.support.design.widget.AppBarLayout>
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="5"
     android:orientation="vertical"
     >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_weight="5"
+
         android:layout_gravity="center"
 
         >
@@ -116,7 +117,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_weight="5"
         android:weightSum="2"
         android:padding="10dp"
         android:background="#ffff"
